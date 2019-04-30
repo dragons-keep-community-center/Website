@@ -3,14 +3,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="navbar_module.css">
+
     <title>navigation menu</title>
 </head>
+    <script>
+    function showHide() {
+        var navList = document.getElementById("nav-lists");
 
-<body>
-</body>
+        if (navList.className == '_Menus') {
+            navList.classList.add("_Menus-show");
+        } else {
+            navList.classList.remove("_Menus-show");
+        }
+
+    }
+</script>
 <nav class="navbar">
     <div class="container">
-        <section class="_Logo"><img src="logo.png"></section>
+        <section class="_Logo"><img src="https://via.placeholder.com/150x60"></section>
         <section class="_Iconbar">
             <span class="menu-bar" onclick="showHide()">
                 <i class="icon-bar"></i>
@@ -21,10 +32,15 @@
         <section class="_Menus" id="nav-lists">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Code of Conduct</a></li>
             </ul>
         </section>
     </div>
 </nav>
+<body>
+    
+</body>
+
 </html>
