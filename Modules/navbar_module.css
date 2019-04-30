@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #000;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+._Logo {
+    overflow: hidden;
+    text-align: center;
+    flex-basis: 200px;
+}
+
+._Logo img {
+    height: 100%;
+}
+
+._Menus ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+._Menus ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #FFF;
+    outline: none;
+}
+
+._Menus ul li a:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+._Iconbar {
+    display: none;
+    background-color: #000;
+}
+
+.menu-bar {
+    width: 45px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.icon-bar {
+    height: 3px;
+    width: 100%;
+    background: #FFF;
+    margin: 7px 0;
+    display: block;
+    border-radius: 2px;
+}
+
+
+@media (max-width: 600px) {
+    ._Logo {
+        height: 60px;
+    }
+
+    ._Menus {
+        flex: 100%;
+        background: #333;
+        height: 0;
+        overflow: hidden;
+
+    }
+
+    ._Menus ul{
+        flex-direction: column;
+    }
+
+    ._Menus ul li a {
+        height: 40px;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+
+    ._Menus ul li a:hover {
+        background-color: #81d742;
+        color: #FFF;
+    }
+
+    .container {
+        justify-content: space-between;
+    }
+
+    ._Iconbar {
+        display: flex;
+        margin-right: 10px;
+
+    }
+
+    ._Menus-show {
+        height: auto;
+    }
