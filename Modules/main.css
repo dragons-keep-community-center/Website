@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+line-height: 1rem;
+    font-weight: normal;
+    font-family: 'Raleway', serif;
+}
+
+html {
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    line-height: 2rem;
+} 
+    <!--font-family: Raleway, Notoserif;
+    font-size:  px
+    line-hieght: rems 
+    (1.3-1.5 x font size, divide by 16 to translate to rems)
+    baseline grid is half the line height in rems, multiply by high number-->
+    
+    
+    .mobile-container {
+    margin: auto;
+    background-color: #fff;
+    height: 100vh;
+    color: black;
+    border-radius: 10px;
+    /*Test*/
+    transition: height 3s;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    /*Test*/
+    transition: height 3s;
+
+}
+
+.topnav #myLinks {
+    display: none;
+    /*Test*/
+    transition: height 3s;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    /*Test*/
+    transition: height 3s;
+}
+
+.topnav a.icon {
+    background: #e63a65;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*Test*/
+    transition: height 3s;
+}
+
+#c43155 .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    /*Test*/
+    transition: height 3s;
+}
+
+.active {
+    background-color: #e63a65;
+    color: white;
+    transition: 0.5s;
+    /*Test*/
+    transition: height 3s;
+}
+
+.footer {
+
+.fa {
+    float: right;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 10px 10px 0%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-pinterest {
+    color: white;
+}}
