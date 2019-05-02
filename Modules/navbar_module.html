@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="navbar_module.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="navbar_module.css">
 
     <title>navigation menu</title>
 </head>
-    <script>
-    function showHide() {
-        var navList = document.getElementById("nav-lists");
 
-        if (navList.className == '_Menus') {
-            navList.classList.add("_Menus-show");
-        } else {
-            navList.classList.remove("_Menus-show");
-        }
 
-    }
-</script>
-<nav class="navbar">
-    <div class="container">
-        <section class="_Logo"><img src="https://via.placeholder.com/150x60"></section>
-        <section class="_Iconbar">
-            <span class="menu-bar" onclick="showHide()">
-                <i class="icon-bar"></i>
-                <i class="icon-bar"></i>
-                <i class="icon-bar"></i>
-            </span>
-        </section>
-        <section class="_Menus" id="nav-lists">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Code of Conduct</a></li>
-            </ul>
-        </section>
-    </div>
-</nav>
 <body>
     
+
+<!-- Simulate a phone -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <div id="myLinks">
+    <a href="#news">Resources</a>
+    <a href="#contact">Events</a>
+    <a href="#about">Code of Conduct</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div >
+  <h3>Lorem Ipsum </h3>
+  <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero in sapien suscipit dignissim. Fusce tincidunt, dui vel molestie pharetra, tellus augue posuere quam, at vulputate lacus felis vitae dolor. Nulla facilisi. Vivamus nunc felis, dapibus ac condimentum sit amet, tincidunt vitae ligula. Maecenas pulvinar consectetur ipsum, sit amet tincidunt enim efficitur vitae. Sed interdum scelerisque mauris, in viverra magna mattis nec. Quisque blandit consequat sapien, ut tincidunt sem convallis non. Donec tellus ipsum, pulvinar in orci sit amet, bibendum feugiat eros. Maecenas malesuada leo ante, at vulputate turpis porta et. Phasellus in blandit neque. Maecenas at nisi augue. Nullam tincidunt ornare velit sed semper. Duis efficitur massa ut magna sodales ultricies. Nulla facilisi.
+
+    </p>
+</div>
+
+<!-- End phone -->
+</div>
+
+    
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
 </body>
 
 </html>

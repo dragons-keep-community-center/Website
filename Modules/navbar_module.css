@@ -3,6 +3,8 @@
 *::after {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    -webkit-transition: width 3s; /* Safari */
+  -webkit-transition-delay: 1s;
 }
 
 body {
@@ -12,114 +14,66 @@ body {
     font-family: sans-serif;
 }
 
-.navbar {
-    width: 100%;
-    background-color: #000;
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-    height: 60px;
-    display: flex;
-    flex-wrap: wrap;
-
+.mobile-container {
+    margin: auto;
+    background-color: #fff;
+    height: 100vh;
+    color: black;
+    border-radius: 10px;
+    /*Test*/
+    transition: height 3s;
 }
 
-._Logo {
+.topnav {
     overflow: hidden;
-    text-align: center;
-    flex-basis: 200px;
+    background-color: #333;
+    position: relative;
+    /*Test*/
+    transition: height 3s;
+
 }
 
-._Logo img {
-    height: 100%;
-}
-
-._Menus ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
-}
-
-._Menus ul li a {
-    display: block;
-    padding: 0 10px;
-    height: 60px;
-    line-height: 60px;
-    text-decoration: none;
-    color: #FFF;
-    outline: none;
-}
-
-._Menus ul li a:hover {
-    background-color: #FFF;
-    color: #000;
-}
-
-._Iconbar {
+.topnav #myLinks {
     display: none;
-    background-color: #000;
+    /*Test*/
+    transition: height 3s;
 }
 
-.menu-bar {
-    width: 45px;
-    align-self: center;
-    cursor: pointer;
-}
-
-.icon-bar {
-    height: 3px;
-    width: 100%;
-    background: #FFF;
-    margin: 7px 0;
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     display: block;
-    border-radius: 2px;
+    /*Test*/
+    transition: height 3s;
 }
 
+.topnav a.icon {
+    background: #e63a65;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*Test*/
+    transition: height 3s;
+}
 
-@media (max-width: 600px) {
-    ._Logo {
-        height: 60px;
-    }
+#c43155 .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    /*Test*/
+    transition: height 3s;
+}
 
-    ._Menus {
-        flex: 100%;
-        background: #333;
-        height: 0;
-        overflow: hidden;
-
-    }
-
-    ._Menus ul{
-        flex-direction: column;
-    }
-
-    ._Menus ul li a {
-        height: 40px;
-        font-size: 14px;
-        text-transform: uppercase;
-        line-height: 40px;
-    }
-
-    ._Menus ul li a:hover {
-        background-color: #81d742;
-        color: #FFF;
-    }
-
-    .container {
-        justify-content: space-between;
-    }
-
-    ._Iconbar {
-        display: flex;
-        margin-right: 10px;
-
-    }
-
-    ._Menus-show {
-        height: auto;
-    }
+.active {
+    background-color: #e63a65;
+    color: white;
+    transition: 0.5s;
+    /*Test*/
+    transition: height 3s;
+}
