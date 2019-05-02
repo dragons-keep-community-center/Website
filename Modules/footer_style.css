@@ -16,19 +16,13 @@ h6 {
 
 }
 
-html {
-    font-family: 'Raleway', serif;
-    font-size: 16px;
-    line-height: 2rem;
-}
 .fa {
-    float: right;
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 20px 10px 10px 0%;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -36,17 +30,17 @@ html {
 }
 
 .fa-facebook {
-    color: white;
+    color: black;
 }
 
 .fa-twitter {
-    color: white;
+    color: black;
 }
 
 .fa-instagram {
-    color: white;
+    color: black;
 }
 
 .fa-pinterest {
-    color: white;
+    color: black;
 }
