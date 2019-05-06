@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 h1,
@@ -14,6 +15,7 @@ h6 {
     font-weight: normal;
 
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -28,5 +30,72 @@ h5,
 h6 {
     line-height: 1rem;
     font-weight: normal;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+}
+
+.mobile-container {
+    margin: auto;
+    padding-top: 6rem;
+    background-color: #fff;
+    height: 100vh;
+    color: black;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+.nav_logo {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+.topnav #myLinks {
+    display: none;
+
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+}
+
+.topnav a.icon {
+    background: #e63a65;
+    padding-top: 1.5rem;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#c43155 .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.active {
+    background-color: #e63a65;
+    color: white;
+    transition: 0.5s;
 
 }
