@@ -16,30 +16,31 @@ h6 {
 
 }
 
-a.fa:link {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+a.fa: {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
     color: black;
 }
 
 a.fa:hover {
-    color:
-}
-
-a.fa-facebook {
     
 }
 
-a.fa-twitter {
+a.fa-facebook {
+    width: 10px;
+    height: 10px
+}
 
+a.fa-twitter {
+    
 }
 
 a.fa-instagram {
-   
+    
 }
 
 a.fa-pinterest {
