@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dragon's Keep Community Center</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+
+    <header>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#" class="active"><img class="nav_logo" src="img/logo_emblem.png" alt="Scroll to top"></a>
+            <div id="myLinks">
+                <a href="Index.html">Home</a>
+                <a href="Resources.html">Resources</a>
+                <a href="Events.html">Events</a>
+                <a href="CodeOfConduct.html">Code of Conduct</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars fa-2x"></i>
+            </a>
+        </div>
+
+    </header>
+
+
+    <!-- Simulate a phone -->
+    <div class="mobile-container">
+
+
+        <div class="conduct">
+            <h1>Code of Conduct </h1>
+            <ol>
+                <li>No eating community members</li>
+                <li>Can't invade people's personal space (1 foot radius)
+                </li>
+                <li>No discrimination (species, gender, disability, wealth, location)
+</li>
+
+            </ol>
+        </div>
+
+        <!-- End phone -->
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

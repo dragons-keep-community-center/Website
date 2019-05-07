@@ -42,7 +42,7 @@ body {
 
 .mobile-container {
     margin: auto;
-    padding-top: 6rem;
+    padding-top: 5.1rem;
     background-color: #fff;
     height: 100vh;
     color: black;
@@ -56,6 +56,7 @@ body {
     top: 0;
     width: 100%;
     transition: top 0.3s;
+    z-index: 1001;
 }
 
 .nav_logo {
@@ -79,7 +80,8 @@ body {
 }
 
 .topnav a.icon {
-    background: #e63a65;
+/*    background: #e63a65;*/
+    background: #9a3a2e;
     padding-top: 1.5rem;
     display: block;
     position: absolute;
@@ -94,8 +96,66 @@ body {
 }
 
 .active {
-    background-color: #e63a65;
+/*    background-color: #e63a65;*/
+    background-color: #9a3a2e;
     color: white;
     transition: 0.5s;
 
+}
+
+.hero{
+    width: 100%;
+}
+
+.mission_statment{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: aliceblue;
+    background-color: #9a3a2e;
+}
+
+.conduct{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+ol{
+    padding: 2rem;
+}
+
+li{
+    margin: 1rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.item {
+    position: relative;
+    text-align: center;
+}
+
+
+.item .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.res_img{
+     width: 100%;
+    height: auto;
+}
+
+.res_title{
+    margin: 2rem;
 }
