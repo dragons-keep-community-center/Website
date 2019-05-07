@@ -136,12 +136,16 @@ li{
 }
 
 .wrapper {
+    align-content: center;
+padding: 1rem;    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 1rem;
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 1rem 2rem 1rem 1rem;
 }
 .item {
+    align-content: center;
+    width: 90%;
     position: relative;
     text-align: center;
 }
@@ -169,6 +173,7 @@ li{
 
 .highlight{
     margin-left: 5%;
+    margin-right: 5%;
     width: 90%;
 }
 
