@@ -39,6 +39,12 @@ body {
     background-color: #f7f7f7;
     font-family: sans-serif;
 }
+h1,h2{
+    margin: 1rem;
+}
+h3{
+    margin: 1rem 0rem 1rem 0rem;
+}
 
 .mobile-container {
     margin: auto;
