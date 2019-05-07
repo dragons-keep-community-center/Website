@@ -7,6 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Events</title>
+    <!-- load custom jquery ui theme that you download from https://jqueryui.com/-->
+    <link href="jquery-ui.css" rel="stylesheet">
+    <!-- load jquery and jquery-ui libraries-->
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script>
+        /* jquery code for the accordian ui module.
+                                                         y is written on its own line within the accordion curly braces and each is separated with a comma. 
+                                                                                    
+                                                            For options look at https://jqueryui.com/accordion/ and http://api.jqueryui.com/accordion/*/
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true
+                , heightStyle: "content"
+                , active: false
+            });
+        });
+    </script>
 
 </head>
 
@@ -34,20 +53,29 @@
     <!-- Simulate a phone -->
     <div class="mobile-container">
 
-
+        <h1 class="res_title">Events</h1>
+        <div class="event_acc">
+            
+    <!-- Accordion -->
+    <div id="accordion">
+        <h2>Vegan Cooking Class</h2>
         <div>
-            <h3>Lorem Ipsum </h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero in sapien suscipit dignissim. Fusce tincidunt, dui vel molestie pharetra, tellus augue posuere quam, at vulputate lacus felis vitae dolor. Nulla facilisi. Vivamus nunc felis, dapibus ac condimentum sit amet, tincidunt vitae ligula. Maecenas pulvinar consectetur ipsum, sit amet tincidunt enim efficitur vitae. Sed interdum scelerisque mauris, in viverra magna mattis nec. Quisque blandit consequat sapien, ut tincidunt sem convallis non. Donec tellus ipsum, pulvinar in orci sit amet, bibendum feugiat eros. Maecenas malesuada leo ante, at vulputate turpis porta et. Phasellus in blandit neque. Maecenas at nisi augue. Nullam tincidunt ornare velit sed semper. Duis efficitur massa ut magna sodales ultricies. Nulla facilisi.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero in sapien suscipit dignissim. Fusce tincidunt, dui vel molestie pharetra, tellus augue posuere quam, at vulputate lacus felis vitae dolor. Nulla facilisi. Vivamus nunc felis, dapibus ac condimentum sit amet, tincidunt vitae ligula. Maecenas pulvinar consectetur ipsum, sit amet tincidunt enim efficitur vitae. Sed interdum scelerisque mauris, in viverra magna mattis nec. Quisque blandit consequat sapien, ut tincidunt sem convallis non. Donec tellus ipsum, pulvinar in orci sit amet, bibendum feugiat eros. Maecenas malesuada leo ante, at vulputate turpis porta et. Phasellus in blandit neque. Maecenas at nisi augue. Nullam tincidunt ornare velit sed semper. Duis efficitur massa ut magna sodales ultricies. Nulla facilisi.
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero in sapien suscipit dignissim. Fusce tincidunt, dui vel molestie pharetra, tellus augue posuere quam, at vulputate lacus felis vitae dolor. Nulla facilisi. Vivamus nunc felis, dapibus ac condimentum sit amet, tincidunt vitae ligula. Maecenas pulvinar consectetur ipsum, sit amet tincidunt enim efficitur vitae. Sed interdum scelerisque mauris, in viverra magna mattis nec. Quisque blandit consequat sapien, ut tincidunt sem convallis non. Donec tellus ipsum, pulvinar in orci sit amet, bibendum feugiat eros. Maecenas malesuada leo ante, at vulputate turpis porta et. Phasellus in blandit neque. Maecenas at nisi augue. Nullam tincidunt ornare velit sed semper. Duis efficitur massa ut magna sodales ultricies. Nulla facilisi.
-                <br>
-
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed eu libero in sapien suscipit dignissim. Fusce tincidunt, dui vel molestie pharetra, tellus augue posuere quam, at vulputate lacus felis vitae dolor. Nulla facilisi. Vivamus nunc felis, dapibus ac condimentum sit amet, tincidunt vitae ligula. Maecenas pulvinar consectetur ipsum, sit amet tincidunt enim efficitur vitae. Sed interdum scelerisque mauris, in viverra magna mattis nec. Quisque blandit consequat sapien, ut tincidunt sem convallis non. Donec tellus ipsum, pulvinar in orci sit amet, bibendum feugiat eros. Maecenas malesuada leo ante, at vulputate turpis porta et. Phasellus in blandit neque. Maecenas at nisi augue. Nullam tincidunt ornare velit sed semper. Duis efficitur massa ut magna sodales ultricies. Nulla facilisi.
-
-            </p>
+          <img src="https://via.placeholder.com/300"> 
+            <h4>November 5th</h4>
+            <p>2pm - 5pm</p>
+            
+            <a href="#" class="myButton">RSVP</a>
+            
+        </div>
+        <h2>Music Festival</h2>
+        <div>
+            <p>The palatable sensation we lovingly refer to as The Cheeseburger has a distinguished and illustrious history. It was born from humble roots, only to rise to well-seasoned greatness.</p>
+        </div>
+        <h2>Event #3</h2>
+        <div>
+            <p>Cupcake ipsum dolor. Sit amet brownie danish chocolate biscuit bear claw icing. Sweet roll jelly biscuit chocolate cake jujubes gummi bears cotton candy tiramisu. Tootsie roll pudding jelly-o marzipan muffin lollipop. Liquorice tart jelly-o topping jelly-o. Tart cheesecake tart caramels tootsie roll gingerbread caramels. Fruitcake jelly beans cake halvah cupcake apple pie cupcake. Gummi bears fruitcake jelly-o.</p>
+        </div>
+    </div>
         </div>
 
         <!-- End phone -->
