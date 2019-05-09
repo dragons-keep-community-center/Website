@@ -256,9 +256,14 @@ h3 {
 li {
     margin: 1rem;
 }
+
+.coc_p {
+    margin: 1rem;
+}
 /*-------------------footer-----------------------*/
 footer {
     padding: 1rem;
     color:white;
-    background-color: black;
+    background-color: #9f2523;
+    font-size: 15px; 
 }
