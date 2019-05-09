@@ -43,7 +43,7 @@
 
         <div class="home_highlights">
 
-            <div onclick="window.location.href='http://www.oswego.edu/~frescign/neighbor.ly/'" class="grid-container">
+            <div onclick="nblyFunction()" class="grid-container">
 
                 <img class="town_img" src="img/neighborlylogo.svg" alt="neighborly">
 
@@ -54,12 +54,9 @@
 
             </div>
 
-            <div onclick="window.location.href='http://www.oswego.edu/~areynol3/dragon_trails" class="grid-container">
+             <div onclick="dtFunction()" class="grid-container">
 
-
-                <a href="http://www.oswego.edu/~areynol3/dragon_trails/">
                     <img class="town_dragontrails" src="img/DragonTrails_logo.png" alt="Dragon Trails">
-                </a>
 
                 <p class="town_text">
                     Welcome to Dragon Town’s very own Community Travel site!
@@ -67,11 +64,11 @@
 
             </div>
 
-            <div class="grid-container">
+            <div onclick="edFunction()" class="grid-container">
 
-
-                <img class="town_img" src="img/educationFestival_logo.svg" alt="Ed fest">
-
+                <a href="http://www.oswego.edu/~zjocz/festival/">
+                    <img class="town_img" src="img/educationFestival_logo.svg" alt="Ed fest">
+                </a>
 
                 <p class="town_text">
                     Welcome to Dragontown’s 1st annual Festival of Education.
@@ -98,6 +95,17 @@
             } else {
                 x.style.display = "block";
             }
+        }
+        
+        function nblyFunction(){
+           window.open("http://www.oswego.edu/~frescign/neighbor.ly/");
+        }
+        function dtFunction(){
+           window.open("http://www.oswego.edu/~areynol3/dragon_trails/");
+        }
+        
+        function edFunction(){
+           window.open("http://www.oswego.edu/~zjocz/festival/");
         }
 
     </script>
