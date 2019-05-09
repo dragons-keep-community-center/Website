@@ -13,7 +13,7 @@ h5,
 h6 {
     line-height: 1rem;
     font-weight: normal;
-
+    font-family: 'Noto Serif', serif;
 }
 
 /*
@@ -28,7 +28,8 @@ body {
     padding: 0;
     margin: 0;
     background-color: #f7f7f7;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 h1,
@@ -141,6 +142,13 @@ h3 {
 
 .home_text {
     max-height: 150px;
+    color: #112333;
+    padding: 1rem;
+
+}
+
+.home_fest_text {
+    max-height: 120px;
     color: #112333;
     padding: 1rem;
 
@@ -261,10 +269,11 @@ li {
 .coc_p {
     margin: 1rem;
 }
+
 /*-------------------footer-----------------------*/
 footer {
     padding: 1rem;
-    color:white;
+    color: white;
     background-color: #9f2523;
-    font-size: 15px; 
+    font-size: 15px;
 }
