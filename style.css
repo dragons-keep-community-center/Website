@@ -140,6 +140,7 @@ h3 {
 }
 
 .home_text {
+    max-height: 150px;
     color: #112333;
     padding: 1rem;
 
