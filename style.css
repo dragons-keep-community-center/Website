@@ -120,16 +120,16 @@ h3 {
 
 /*-------------------Home Page-----------------------*/
 
-.mission_statment {
+.mission_statement {
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
-    color: aliceblue;
+    color: #CBEBF2;
     background-color: #9f2523;
 }
 
 .home_article {
-    background: #112333;
+    background: #CBEBF2;
     box-shadow: 8px 8px 5px lightgrey;
     margin: 2rem;
 }
@@ -140,7 +140,7 @@ h3 {
 }
 
 .home_text {
-    color: #c4dbd4;
+    color: #112333;
     padding: 1rem;
 
 }
