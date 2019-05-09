@@ -9,6 +9,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 
 
 <body>
@@ -34,7 +44,7 @@
 
 
     <!-- Simulate a phone -->
-    <div class="mobile-container">
+    <div class="main-container">
 
         <img class="hero" src="img/center.jpeg" alt="The Center">
 
@@ -47,44 +57,48 @@
             </p>
         </div>
 
-        <div class="home_article">
-            <img class="highlight" src="https://via.placeholder.com/400x300" alt="cookies">
-            <h3>Music Festival </h3>
-            <p>
-                Our Music Festival is fun for all residents with live music and free food!
-            </p>
-        </div>
+        <div class="home_highlights">
 
-        <div class="home_article">
-            <img class="highlight" src="https://via.placeholder.com/400x300" alt="cookies">
-            <h3> Cultural Awareness Class </h3>
-            <p>
-                Our Cultural Awareness Class encourages residents to learn more about each culture with an info session and a discussion session.
-            </p>
-        </div>
 
-        <div class="home_article">
-            <img class="highlight" src="https://via.placeholder.com/400x300" alt="cookies">
-            <h3>Bus Line </h3>
-            <p>
-                The Bus Line provides transportation around Dragontown. Our Community Center is along the route, providing easy access for all residents.
-            </p>
+            <div class="home_article">
+                <img class="home_img" src="img/music_festival.jpg" alt="Music Festival">
+                <div class="home_text">
+                    <h3>Music Festival </h3>
+                    <p>
+                        Our Music Festival is fun for all residents with live music and free food!
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="home_article">
+                <img class="home_img" src="img/culture_class.jpg" alt="Culture">
+                <div class="home_text">
+                    <h3>Cultural Awareness Class</h3>
+                    <p>
+                        Our Cultural Awareness Class encourages residents to learn more about each culture with an info session and a discussion session.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="home_article">
+                <img class="home_img" src="img/bus_line.jpg" alt="Bus">
+                <div class="home_text">
+                    <h3>Bus Line</h3>
+                    <p>
+                        The Bus Line provides transportation around Dragontown. Our Community Center is along the route, providing easy access for all residents.
+                    </p>
+                </div>
+            </div>
+
         </div>
 
         <!-- End phone -->
     </div>
 
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-    </script>
+
 
 </body>
 

@@ -16,22 +16,13 @@ h6 {
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*
+Mint color: #d1f2de;
+Dark Blue: #112333;
+Dragon Logo: #c4dbd4;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    line-height: 1rem;
-    font-weight: normal;
+*/
 
-}
 
 body {
     padding: 0;
@@ -39,26 +30,32 @@ body {
     background-color: #f7f7f7;
     font-family: sans-serif;
 }
-h1,h2{
+
+h1,
+h2 {
     margin: 1rem;
 }
-h3{
+
+h3 {
     margin: 1rem 0rem 1rem 0rem;
 }
 
-p{
-    margin: 2rem;
-}
 
-.mobile-container {
+.main-container {
     margin: auto;
     padding-top: 5.1rem;
     background-color: #fff;
-    height: 100vh;
+    height: 100%;
     color: black;
     border-radius: 10px;
 }
 
+.res_title {
+    margin: 1rem 2rem 2rem 1rem;
+}
+
+
+/*Navbar start*/
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -67,6 +64,7 @@ p{
     width: 100%;
     transition: top 0.3s;
     z-index: 1001;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav_logo {
@@ -90,7 +88,7 @@ p{
 }
 
 .topnav a.icon {
-/*    background: #e63a65;*/
+    /*    background: #e63a65;*/
     background: #9a3a2e;
     padding-top: 1.5rem;
     display: block;
@@ -106,18 +104,23 @@ p{
 }
 
 .active {
-/*    background-color: #e63a65;*/
+    /*    background-color: #e63a65;*/
     background-color: #9a3a2e;
     color: white;
     transition: 0.5s;
 
 }
 
-.hero{
+/*Navbar end*/
+
+
+.hero {
     width: 100%;
 }
 
-.mission_statment{
+/*-------------------Home Page-----------------------*/
+
+.mission_statment {
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -125,66 +128,130 @@ p{
     background-color: #9a3a2e;
 }
 
-.conduct{
-    margin-top: 1rem;
+.home_article {
+    background: #112333;
+    box-shadow: 8px 8px 5px lightgrey;
+    margin: 2rem;
+}
+
+.home_img {
+    width: 100%;
+
+}
+
+.home_text {
+    color: #c4dbd4;
     padding: 1rem;
+
 }
 
-ol{
-    padding: 2rem;
+@media screen and (min-width: 768px) {
+
+    .home_highlights {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: 1rem;
+    }
 }
 
-li{
+@media screen and (min-width: 1068px) {
+
+    .home_highlights {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: 1rem;
+    }
+}
+
+
+/*-------------------Around Town-----------------------*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #112333;
+    padding: 10px;
     margin: 1rem;
 }
 
-.wrapper {
-    align-content: center;
-padding: 1rem;    
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 1rem;
-    margin: 1rem 2rem 1rem 1rem;
+.town_title {
+    margin: 2rem;
 }
-.item {
-    align-content: center;
+
+.town_img {
     width: 90%;
-    position: relative;
-    text-align: center;
+}
+
+.town_dragontrails {
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.town_text {
+    color: #c4dbd4;
+    font-size: 1.5rem;
+    max-width: 600px;
 }
 
 
-.item .content {
+/*-------------------Facilities-----------------------*/
+
+.fac_edges {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.fac_container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    box-shadow: 8px 8px 5px lightgrey;
+
+}
+
+.fac_container img {
+    vertical-align: middle;
+}
+
+.fac_container .fac_content {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
+    /* Fallback color */
     background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
     color: #f1f1f1;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 8px;
+    padding: 20px;
+
 }
 
-.res_img{
-     width: 100%;
-    height: auto;
-}
 
-.res_title{
+/*-------------------About-----------------------*/
+
+.about_p {
     margin: 2rem;
+    max-width: 500px;
 }
 
-.highlight{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-}
 
-.home_article{
-    margin: 1rem 1rem 3rem 1rem;
-    padding: 1rem;
-}
+/*-------------------Code of Conduct-----------------------*/
 
-.event_acc{
+.conduct {
     margin: 2rem;
+    max-width: 500px;
+}
+
+.conduct_ol {
+    margin: 1rem;
+}
+
+li {
+    margin: 1rem;
 }
