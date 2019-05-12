@@ -249,7 +249,8 @@ h3 {
     max-width: 500px;
 }
 
-/*--------Events------*/
+/*-------------------Events-----------------------*/
+
 .eventButton {
     background-color: #a02524;
     -moz-border-radius: 28px;
@@ -307,29 +308,34 @@ a:visited {
     color: #ffffff;
 }
 
-/*--------RSVP-------------------------*/
+/*-------------------------RSVP-------------------------*/
 .RSVPpage {
     padding-left: 10%;
 }
 
 /*-------------------Code of Conduct-----------------------*/
 
-.conduct {
-    margin: 2rem;
-    max-width: 500px;
-}
+
+
 
 .conduct_ol {
     margin: 1rem;
+
 }
 
 li {
     margin: 1rem;
+    max-width: 500px;
 }
 
 .coc_p {
+    text-align: center;
     margin: 1rem;
+    max-width: 500px;
 }
+
+
+
 
 /*-------------------footer-----------------------*/
 footer {
@@ -348,8 +354,14 @@ footer {
 *
 */
 
+
+
+/*
+*MS1
+*/
 @media screen and (min-width: 668px) {
 
+    
     .hero {
         height: 400px;
     }
@@ -362,16 +374,41 @@ footer {
         margin: 1rem;
     }
 
-    /*-------------------Around Town-----------------------*/
+    /*-------------------MS 1 Around Town-----------------------*/
 
     .town_hero {
         height: 400px;
     }
 
+
+
+    .event_acc {
+        padding: 4rem;
+    }
+
+
+
+
+    /*-------------------MS 1 Code of Conduct-----------------------*/
+    .conduct {
+        padding-top: 1rem;
+        margin: auto;
+        width: 60%;
+
+    }
 }
 
+
+/*
+*MS2
+*/
 @media screen and (min-width: 1068px) {
 
+    
+    body{
+        font-size: 18px;
+    }
+    
     .home_highlights {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -387,6 +424,10 @@ footer {
 }
 
 
+
+/*
+*MS3
+*/
 @media screen and (min-width: 1168px) {
 
     .home_highlights {
@@ -402,7 +443,7 @@ footer {
         height: 70%;
     }
 
-    /*-------------------Facilities-----------------------*/
+    /*-------------------MS 3 Facilities-----------------------*/
 
     .fac_edges {
         display: grid;
@@ -411,4 +452,11 @@ footer {
         padding: 10px;
         margin: 1rem;
     }
+
+
+
+    .event_acc {
+        padding: 3rem 9rem 9rem 9rem;
+    }
+
 }
