@@ -128,11 +128,14 @@ h3 {
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
-    color: #CBEBF2;
+    color: #fff;
     background-color: #9f2523;
 }
 
 .home_article {
+    display: grid;
+    grid-template-rows: auto auto;
+
     background: #CBEBF2;
     box-shadow: 8px 8px 5px lightgrey;
     margin: 2rem;
@@ -149,7 +152,7 @@ h3 {
 
 .home_text {
     color: #112333;
-    padding: 1rem;
+    margin: 1rem;
 
 }
 
@@ -173,9 +176,9 @@ h3 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     grid-gap: 10px;
-    background-color: #112333;
+    background-color: #CBEBF2;
     padding: 10px;
     margin: 1rem;
     cursor: pointer;
@@ -195,8 +198,8 @@ h3 {
 }
 
 .town_text {
-    color: #c4dbd4;
-    font-size: 1.5rem;
+    padding: 1rem;
+    color: #111;
     max-width: 600px;
 }
 
@@ -342,6 +345,9 @@ footer {
 
 @media screen and (min-width: 668px) {
 
+    .hero {
+        height: 400px;
+    }
 
     .home_highlights {
         display: grid;
@@ -354,27 +360,27 @@ footer {
     /*-------------------Around Town-----------------------*/
 
     .town_hero {
-        height: 500px;
+        height: 400px;
     }
-
-    @media screen and (min-width: 1068px) {
-
-        .home_highlights {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            grid-gap: 10px;
-            padding: 10px;
-            margin: 1rem;
-        }
-
-        .home_fest_img {
-            width: 100%;
-            height: 58%;
-        }
-    }
-
 
 }
+
+@media screen and (min-width: 1068px) {
+
+    .home_highlights {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: 1rem;
+    }
+
+    .home_fest_img {
+        width: 100%;
+        height: 58%;
+    }
+}
+
 
 @media screen and (min-width: 1168px) {
 
@@ -390,14 +396,14 @@ footer {
         width: 100%;
         height: 70%;
     }
-    
+
     /*-------------------Facilities-----------------------*/
 
     .fac_edges {
-       display: grid;
-            grid-template-columns: auto auto;
-            grid-gap: 10px;
-            padding: 10px;
-            margin: 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: 1rem;
     }
 }
