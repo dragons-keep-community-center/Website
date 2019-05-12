@@ -915,33 +915,12 @@ body .ui-tooltip {
 	font-weight: bold;
 }
 .ui-widget-header a {
-	color: #222222;
+	color: #ffffff;
 }
 h4{
    line-height:px;
 }
-.myButton {
-	background-color:#cfe0db;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:8px;
-    float: right;
-	
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:10px 30px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
-}
-.myButton:hover {
-	background-color:#ea9a99;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+
 }
 
 /* Interaction states

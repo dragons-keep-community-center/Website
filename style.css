@@ -267,12 +267,66 @@ h3 {
 
 }
 
-
+/*-------------------footer-----------------------*/
+.accordion-expand-holder {
+    text-align: center;
+    padding: 10px;
+}
 /*-------------------About-----------------------*/
 
 .about_p {
     margin: 2rem;
     max-width: 500px;
+}
+
+/*--------Events------*/
+.eventButton {
+	background-color:#a02524;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:8px;
+    float: right;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.eventButton:hover {
+	background-color:#ea9a99;
+    color: #ffffff;
+}
+.eventButton:active {
+	position:relative;
+	top:1px;
+}
+
+.buttonBack {
+    margin-left: 10px;
+    margin-top: 10px;
+	background-color:#a02524;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:8px;
+    float: left;
+	
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background-color:#ea9a99;
+    color: #ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 
 
