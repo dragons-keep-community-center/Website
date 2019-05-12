@@ -178,10 +178,12 @@
 	touch-action: none;
 }
 .ui-accordion .ui-accordion-header {
+    color: #ffffff;
+    background: #17404d;
 	display: block;
 	cursor: pointer;
 	position: relative;
-	margin: 2px 0 0 0;
+	margin: 2px 15px 0px 15px;
 	padding: .5em .5em .5em .7em;
 	font-size: 100%;
 }
@@ -906,7 +908,7 @@ body .ui-tooltip {
 	color: #222222;
 }
 .ui-widget-content a {
-	color: #222222;
+	color: #ffffff;
 }
 .ui-widget-header {
 	border: 1px solid #aaaaaa;
