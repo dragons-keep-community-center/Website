@@ -214,7 +214,7 @@ h3 {
     margin: 0 auto;
     margin-bottom: 2rem;
     box-shadow: 8px 8px 5px lightgrey;
-
+    cursor: pointer;
 }
 
 .fac_container img {
