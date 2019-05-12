@@ -52,7 +52,7 @@ h3 {
 }
 
 .res_title {
-    margin: 1rem 2rem 2rem 1rem;
+    margin: 2rem 2rem 1rem 1rem;
 }
 
 
@@ -98,9 +98,9 @@ h3 {
     top: 0;
 }
 
-#c43155 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.topnav a:hover {
+    background-color: #9f2523;
+    color: white;
 
 }
 
@@ -315,7 +315,9 @@ a:visited {
 
 /*-------------------Code of Conduct-----------------------*/
 
-
+.conduct {
+    margin-left: 5%;
+}
 
 
 .conduct_ol {
@@ -329,7 +331,6 @@ li {
 }
 
 .coc_p {
-    text-align: center;
     margin: 1rem;
     max-width: 500px;
 }
@@ -361,7 +362,7 @@ footer {
 */
 @media screen and (min-width: 668px) {
 
-    
+
     .hero {
         height: 400px;
     }
@@ -388,14 +389,6 @@ footer {
 
 
 
-
-    /*-------------------MS 1 Code of Conduct-----------------------*/
-    .conduct {
-        padding-top: 1rem;
-        margin: auto;
-        width: 60%;
-
-    }
 }
 
 
@@ -404,11 +397,11 @@ footer {
 */
 @media screen and (min-width: 1068px) {
 
-    
-    body{
+
+    body {
         font-size: 18px;
     }
-    
+
     .home_highlights {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -420,6 +413,46 @@ footer {
     .home_fest_img {
         width: 100%;
         height: 58%;
+    }
+
+    
+    
+    /*-------------------About-----------------------*/
+
+    .about_p {
+        text-align: left;
+        margin: auto;
+        padding: 1rem;
+        max-width: 500px;
+    }
+
+    /*-------------------MS 1 Code of Conduct-----------------------*/
+    .conduct {
+        text-align: center;
+        padding-top: 1rem;
+        margin: auto;
+        width: 60%;
+
+    }
+
+    .conduct_ol {
+        margin: auto;
+
+    }
+
+    li {
+        text-align: left;
+        margin: auto;
+        padding: 1rem;
+        max-width: 500px;
+    }
+
+
+    .coc_p {
+        text-align: left;
+        margin: auto;
+        padding: 1rem;
+        max-width: 500px;
     }
 }
 
