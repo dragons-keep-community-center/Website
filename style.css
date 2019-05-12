@@ -309,6 +309,11 @@ a:visited {
     color: #ffffff;
 }
 
+/*--------RSVP-------------------------*/
+.RSVPpage{
+    padding-left: 10%;
+}
+
 /*-------------------Code of Conduct-----------------------*/
 
 .conduct {
