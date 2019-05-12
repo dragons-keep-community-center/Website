@@ -116,8 +116,14 @@ h3 {
 
 .hero {
     width: 100%;
-    background-position: center bottom;
 
+}
+
+.test {
+    background-image: url("img/center.jpeg");
+    background-size: cover;
+    background-position: 50% 75%;
+    height: 300px;
 }
 
 /*-------------------Home Page-----------------------*/
@@ -332,10 +338,6 @@ footer {
 
 @media screen and (min-width: 668px) {
 
-    .test {
-        height: 400px;
-        overflow: hidden;
-    }
 
     .home_highlights {
         display: grid;
